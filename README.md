@@ -1,0 +1,2 @@
+# LumoHacks2018ResilienceApp
+A resilience android app created from android studio written in java. The app was created by my team and I during lumohacks 2018. This project is a good solution to prevent mental illnesses such as depression by providing important info to the user in case they face mental health problems. This app is able to show the availability of first responders according to the user’s geological information. In addition, we also implemented a bot that behaves like a friend to the user throughout the app. 
