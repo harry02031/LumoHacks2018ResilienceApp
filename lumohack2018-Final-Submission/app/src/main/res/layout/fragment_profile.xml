@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ListView
+        android:id="@+id/ProfilelistView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="292dp"></ListView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Diary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ProfilelistView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-292dp"
+        android:text="History"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:padding="8dp"
+        android:text="Think of at least 3 accomplishments from the last 7 days.  " />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:padding="8dp"
+        android:text="Think of at least 3 things you are thankful for from the last 7 days. " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="171dp"
+        android:padding="8dp"
+        android:text="Have you made any progress on any personal/work-related goals you set for yourself? " />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@android:style/Widget.Material.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-94dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editText4"
+        style="@android:style/Widget.Material.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-174dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@android:style/Widget.Material.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:text="Submit" />
+
+
+</RelativeLayout>
